@@ -18,7 +18,7 @@ get '/' do
 end
 
 get '/help' do
-  "I'm running on Sinatra v" + Sinatra::VERSION
+  "I'm running on Sinatra v#{Sinatra::VERSION}"
 end
 
 get '/sum/:a/:b' do
