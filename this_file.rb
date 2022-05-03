@@ -11,11 +11,10 @@ get '/' do
     i = 1
   elsif time >= 17 && time < 21
     i = 2
-  elsif time >= 21 && time < 5
+  else
     i = 3
   end
-  "Good Night, gentleman. I'm a custom microservice."
-  # {PARTS_OF_DAY[i]}
+  "Good #{PARTS_OF_DAY[i]}, gentleman. I'm a custom microservice."
 end
 
 get '/help' do
