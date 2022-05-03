@@ -1,5 +1,5 @@
 {
   "scripts": {
-  "start": "ruby this_file.rb"
+    "start": "ruby this_file.rb"
   }
 }

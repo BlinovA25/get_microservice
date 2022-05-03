@@ -14,7 +14,8 @@ get '/' do
   elsif time >= 21 && time < 5
     i = 3
   end
-  "Good #{PARTS_OF_DAY[i]}, gentleman. I'm a custom microservice."
+  "Good Night, gentleman. I'm a custom microservice."
+  # {PARTS_OF_DAY[i]}
 end
 
 get '/help' do
